@@ -294,3 +294,17 @@ header {
 .footer-menu a{
   display: block; /* coge todo el ancho */
 }
+
+/** Nosotros **/
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-columns: repeat(auto-fit, minmax( 25rem, 1fr )); /*  Responsive, si no cabe va hacia abajo   */
+    column-gap: 4rem;
+}
+
+.informacion-nosotros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
